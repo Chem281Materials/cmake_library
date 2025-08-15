@@ -11,7 +11,7 @@ project(MPIWrapper VERSION 1.0.0
 add_library(MPIWrapper)
 
 # Specify the C++ standard
-target_compile_features(simplempi PUBLIC cxx_std_11)
+target_compile_features(MPIWrapper PUBLIC cxx_std_11)
 
 # Create an alias for MPIWrapper, so that it can be referenced as MPIWrapper::MPIWrapper
 # This is helpful to users, as it helps avoid potential namespace conflicts, and it makes it clear that MPIWrapper::MPIWrapper is a library
